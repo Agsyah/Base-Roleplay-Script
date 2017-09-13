@@ -34,7 +34,7 @@ new ourConnection;
 #define SQL_HOSTNAME "127.0.0.1"
 #define SQL_USERNAME " "
 #define SQL_DATABASE " "
-#define SQL_PASSWORD "lolno"
+#define SQL_PASSWORD " "
 
 //Database establisher end of.
 main ()  
