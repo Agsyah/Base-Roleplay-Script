@@ -5,6 +5,10 @@ Gamemode for GTA: San Andreas's SA:MP modification.
 
 > I'd like to call this an "advanced" base-script for a role-play gamemode server. I wrote the entire script from scratch and started the development on August 11th, 2017. After spending months on learning PAWN, I decided to make my own script from scratch. I spent few months on scripting my primary script and did pretty good and reached 30,000 lines of code with little to no bugs which I was proud of. I decided to make another script for release and just to get opinions and criticism from other members of the SA-MP forums and track my progression.
 
+### Downloading
+
+Ensure you have all plugins listed below. You'll need "handling.db" in your scriptfiles. 
+
 ### Dependencies & Credits
 
 - [MySQL plugin R39-6 by pBlueG](https://github.com/pBlueG/SA-MP-MySQL/releases/tag/R39-6)
