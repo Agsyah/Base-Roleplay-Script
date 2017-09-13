@@ -4222,33 +4222,6 @@ function:OnPlayerNearBusiness()
 	return 1;
 }
 
-function:FunctionCheats(playerid)
-{
-	new
-		str[128],
-		Float:PLAYER_VELOCITY[3]
-	;
-	
-	//Anti-fly:
-	GetPlayerVelocity(playerid, PLAYER_VELOCITY[0], PLAYER_VELOCITY[1], PLAYER_VELOCITY[2]);
-	
-	if(PLAYER_VELOCITY[0] > 0.60)
-	{
-		format(str, sizeof(str), "Player %s (%i) may be cheating. (Flying)", ReturnName(playerid), playerid);
-		SendAdminMessage(1, str); 
-	}
-	return 1;
-}
-
-function:FunctionWeaponcheat(playerid)
-{	
-	if(gettime() - PlayerInfo[playerid][pWeaponsImmune] < 5)
-		return 1;
-	
-	//
-	return 1;
-}
-
 public OnPlayerDeath(playerid, killerid, reason)
 {
 	if(killerid != INVALID_PLAYER_ID)
