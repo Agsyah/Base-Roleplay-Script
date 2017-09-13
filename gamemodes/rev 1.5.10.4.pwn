@@ -1359,6 +1359,11 @@ public OnPlayerConnect(playerid)
 	
 	SetPlayerColor(playerid, 0xAFAFAFFF); 
 	SetPlayerTeam(playerid, PLAYER_STATE_ALIVE); 
+	
+	//Dualies;
+	SetPlayerSkillLevel(playerid, WEAPONSKILL_PISTOL, 899);
+	SetPlayerSkillLevel(playerid, WEAPONSKILL_MICRO_UZI, 0);
+	SetPlayerSkillLevel(playerid, WEAPONSKILL_SPAS12_SHOTGUN, 0);
 
 	new 
 		existCheck[60]
