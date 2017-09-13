@@ -5373,7 +5373,7 @@ CMD:isafk(playerid, params[])
 	return 1;
 }
 
-CMD:id(playerid, params[])
+CMD:id(playerid, params[]) // This command was a hefty test. Can be commented out if need be. 
 {
 	if(isnull(params))
 		return SendUsageMessage(playerid, "/id [playerid OR name]"); 
